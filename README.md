@@ -1,5 +1,12 @@
 📢 **News: this work has been accepted at the EMNLP 2025 main conference!**
 
+📢 **News: Our another work _"Decoupling Reasoning and Knowledge Injection for In-Context Knowledge Editing"_ (DecKER) has been accepted to Findings of ACL 2025!** 🎉 
+
+**DecKER disentangles knowledge injection from reasoning in in-context editing, further enhancing editing performance. We welcome your attention and support!**
+
+- Paper: https://aclanthology.org/2025.findings-acl.1260/
+- Code: https://github.com/bebr2/decker
+
 **Like our project? ⭐ A star from you would be the best encouragement!**
 
 # EditCoT: Knowledge Editing through Chain of Thought
