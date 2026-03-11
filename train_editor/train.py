@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = '0,1,2,3,4,5,6,7'
+os.environ["CUDA_VISIBLE_DEVICES"] = '0'  # 只使用第0张GPU
 
 from typing import Optional
 from dataclasses import dataclass, field

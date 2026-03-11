@@ -13,7 +13,14 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import StoppingCriteria
 from transformers.generation.stopping_criteria import StoppingCriteriaList
 
-prompt_path = "/home/wangchangyue/EditCoT-Code/all_prompts/edticot"
+import os
+
+# 获取当前文件所在目录
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# 向上两级到 EditCoT-Code，再进入 all_prompts/edtcot
+prompt_path = os.path.join(current_dir, "..", "..", "all_prompts", "edtcot")
+# 转换为标准化路径（可选，但推荐）
+prompt_path = os.path.normpath(prompt_path)
 
 class KeywordsStoppingCriteria(StoppingCriteria):
     def __init__(self, keywords_ids:list):

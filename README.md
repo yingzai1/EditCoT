@@ -62,7 +62,7 @@ Run the following command:
 
 ```bash
 cd ./eval
-python eval.py
+python eval_mquake.py
 ```
 
 Note that you need to set the `--editor_path` parameter to the path of the trained CoT Editor from the previous step. If you need to modify the model path, maximum epochs, or other parameters, please refer to the parameter settings in `eval.py`.
