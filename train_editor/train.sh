@@ -3,8 +3,9 @@ project_path="/data/li_yinghuang/EditCoT"
 model_path="/data/li_yinghuang/EditCoT/models/Meta-Llama-3-8B-Instruct"
 port_addr=11468
 
+
 python $project_path/train_editor/train.py \
-    --report_to "tensorboard" \
+    --report_to "none" \
     --data_path $project_path/dataset_construct/output/llama3_dataset.json \
     --model_name_or_path $model_path \
     --output_dir $project_path/train_editor/output/output_llama_1gpu \
